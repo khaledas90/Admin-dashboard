@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+      <!----======== Bootstrap ======== -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard</title> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <span class="logo_name">CodingLab</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li class="active"><a href="#" class="active">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name Dahsboard active ">Dahsboard</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name ContentLi">Content</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name Analytics">Analytics</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name LikeLi">Like</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-comments"></i>
+                    <span class="link-name CommentLi">Comment</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-share"></i>
+                    <span class="link-name shareLi">Share</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            <img src="img/profile.jpg" alt="">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-thumbs-up"></i>
+                        <span class="text">Total Likes</span>
+                        <span class="number">80,220</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-comments"></i>
+                        <span class="text">Comments</span>
+                        <span class="number">40,520</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-share"></i>
+                        <span class="text">Total Share</span>
+                        <span class="number">20,320</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Recent Activity</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Name</span>
+                        <span class="data-list">Prem Shahi</span>
+                        <span class="data-list">Deepa Chand</span>
+                        <span class="data-list">Manisha Chand</span>
+                        <span class="data-list">Pratima Shahi</span>
+                        <span class="data-list">Man Shahi</span>
+                        <span class="data-list">Ganesh Chand</span>
+                        <span class="data-list">Bikash Chand</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Email</span>
+                        <span class="data-list">premshahi@gmail.com</span>
+                        <span class="data-list">deepachand@gmail.com</span>
+                        <span class="data-list">prakashhai@gmail.com</span>
+                        <span class="data-list">manishachand@gmail.com</span>
+                        <span class="data-list">pratimashhai@gmail.com</span>
+                        <span class="data-list">manshahi@gmail.com</span>
+                        <span class="data-list">ganeshchand@gmail.com</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Joined</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-13</span>
+                        <span class="data-list">2022-02-13</span>
+                        <span class="data-list">2022-02-14</span>
+                        <span class="data-list">2022-02-14</span>
+                        <span class="data-list">2022-02-15</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Type</span>
+                        <span class="data-list">New</span>
+                        <span class="data-list">Member</span>
+                        <span class="data-list">Member</span>
+                        <span class="data-list">New</span>
+                        <span class="data-list">Member</span>
+                        <span class="data-list">New</span>
+                        <span class="data-list">Member</span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Status</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+           <p>This section is under development and will be released soon...</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 img-responsive">
+                        <img src="img/error.jpg" width="480px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dash-analit">
+            <div class="overview-anlit">
+                <div class="title">
+                    <i class="uil uil-chart"></i>
+                    <span class="text">Analytics</span>
+                    <div class="textANli">process as a method of studying the nature of something </div>
+                </div>
+           </div>
+           <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="overview-anlit Multiple-Lines">
+                        <div class="title">
+                            <i class="uil uil-chart"></i>
+                            <span class="text">Bar Charts</span>   
+                        </div>
+                        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                   </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="overview-anlit Bar-Charts">
+                        <div class="title">
+                            <i class="uil uil-chart-line"></i>
+                            <span class="text"> Multiple Lines</span>
+                        </div>
+                        <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+                   </div>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="likeCont">
+            <i class="uil uil-thumbs-up"></i>
+            <div class="title-like">
+            <span class="text-like">Likes</span>
+            <div class="textLik">An approximate list of those who have liked from the beginning of the month until now</div>
+        </div>
+        <div class="alert alert-success">This data is automatically updated every month</div> 
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <canvas id="myChart3" style="width:100%;max-width:700px"></canvas>
+                </div>
+                <div class="col-xl-6">
+                    <div class="topLike">
+
+                             
+                        <div class="count">
+                            <p> Top Country</p>
+                            <div>Egypt <span>10K</span></div>
+                            <div>London <span>5K</span></div>
+                            <div>United stats <span>4K</span></div>
+                            <div>france <span>3K</span></div>
+                            <div>Brazil <span>2K</span></div>
+                            <div>Russia <span>1K</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+     </div>
+
+     <div class="comment">
+        <i class="uil uil-comment-notes"></i>
+        <div class="title-comment">
+        <span class="text-comment">comment</span>
+        <div class="textLik">An approximate list of those who have Commented from the beginning of the month until now</div>
+    </div>
+    <div class="alert alert-info">This data is automatically updated every month</div> 
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <canvas id="myChart4" style="width:100%;max-width:350px"></canvas>
+            </div>
+            <div class="col-xl-6">
+                <div class="Topcomment"> 
+                    <div class="count">
+                        <p> Top Country</p>
+                        <div>Italy <span>55K</span></div>
+                        <div>France <span>49K</span></div>
+                        <div>Spain<span>44K</span></div>
+                        <div>Argentina <span>24K</span></div>
+                        <div>USA <span>15K</span></div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+ </div>
+ <div class="share">
+    <i class="uil uil-envelope-share"></i>
+    <div class="title-share">
+    <span class="text-share">comment</span>
+    <div class="textLik">An approximate list of those who have share from the beginning of the month until now</div>
+</div>
+<div class="alert alert-secondary">This data is automatically updated every month</div> 
+<div class="container">
+    <div class="row">
+        <div class="col-xl-6">
+            <canvas id="myChart5" style="width:100%;max-width:600px"></canvas>
+        </div>
+        <div class="col-xl-6">
+            <div class="Topshare"> 
+                <div class="count">
+                    <p> Top Country</p>
+                    <div>Turkey <span>25K</span></div>
+                    <div>Germany <span>23K</span></div>
+                    <div>Kenya<span>22K</span></div>
+                    <div>Canada <span>20K</span></div>
+                    <div>Peru <span>14K</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
